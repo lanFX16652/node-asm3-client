@@ -1,0 +1,29 @@
+.header {
+  background-color: #f8f9fa;
+}
+
+.breadcrum a {
+  text-decoration: none;
+  color: black;
+}
+
+.breadcrum a:last-child {
+  color: rgb(160, 160, 160);
+}
+
+.order-content {
+  background-color: #f8f9fa;
+}
+
+.order-text {
+  color: rgb(160, 160, 160);
+}
+
+.price {
+  color: rgb(160, 160, 160);
+}
+
+.button {
+  background-color: rgba(0, 0, 0, 0.661);
+  color: white;
+}

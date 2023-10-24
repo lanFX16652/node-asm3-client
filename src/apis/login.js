@@ -12,7 +12,7 @@ export const signup = async (fullname, email, password, phone) => {
         });
         return result.data
     } catch (error) {
-        throw new Error(error)
+        console.log(error);
     }
 }
 
@@ -29,7 +29,7 @@ export const useSignup = () => {
             })
             .catch(error => {
                 setIsLoading(false);
-                throw new Error(error);
+                console.log(error);
             })
     }
 
@@ -44,7 +44,7 @@ export const login = async (email, password) => {
         })
         return result.data
     } catch (error) {
-        throw new Error(error)
+        console.log(error);
     }
 }
 

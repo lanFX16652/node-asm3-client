@@ -6,7 +6,7 @@ export const getProducts = async () => {
         const result = await axiosInstance.get('product/list')
         return result.data.products
     } catch (error) {
-        throw new Error(error)
+        console.log(error);
     }
 }
 
@@ -22,7 +22,7 @@ export const useGetProducts = () => {
             setLoading(false)
         }).catch(error => {
             setLoading(false)
-            throw new Error(error)
+            console.log(error);
         })
     }, [])
 
@@ -34,7 +34,7 @@ export const getProduct = async (productId) => {
         const result = await axiosInstance.get(`product/${productId}`)
         return result.data
     } catch (error) {
-        throw new Error(error)
+        console.log(error);
     }
 }
 
@@ -51,7 +51,7 @@ export const useGetProduct = (productId) => {
             })
             .catch(error => {
                 setIsLoading(false)
-                throw new Error(error)
+                console.log(error);
             })
     }, [])
 
@@ -68,7 +68,7 @@ export const getRelatedProducts = async (productId, category) => {
         })
         return result.data
     } catch (error) {
-        throw new Error(error)
+        console.log(error);
     }
 }
 
@@ -85,7 +85,7 @@ export const useGetRelatedProducts = (productId, category) => {
             })
             .catch(error => {
                 setIsLoading(false)
-                throw new Error(error)
+                console.log(error);
             })
     }
 

@@ -11,7 +11,7 @@ const _addToCart = async (productId, qty) => {
 
         return response.data
     } catch (error) {
-        throw new Error(error)
+        console.log(error);
     }
 }
 

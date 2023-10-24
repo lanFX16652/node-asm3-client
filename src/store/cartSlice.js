@@ -57,9 +57,9 @@ export const cartSlice = createSlice({
       })
       .addCase(postAddItem.fulfilled, (state, action) => {
         state.isLoading = false
-        state.cart = action.payload.cart
-        state.totalCartItem = action.payload.totalCartItem
-        state.totalPrice = action.payload.totalPrice
+        state.cart = action.payload?.cart
+        state.totalCartItem = action.payload?.totalCartItem
+        state.totalPrice = action.payload?.totalPrice
       })
       .addCase(postAddItem.rejected, (state, action) => {
         state.isLoading = false
@@ -69,9 +69,9 @@ export const cartSlice = createSlice({
       })
       .addCase(getCart.fulfilled, (state, action) => {
         state.isLoading = false
-        state.cart = action.payload.cart
-        state.totalCartItem = action.payload.totalCartItem
-        state.totalPrice = action.payload.totalPrice
+        state.cart = action.payload?.cart
+        state.totalCartItem = action.payload?.totalCartItem
+        state.totalPrice = action.payload?.totalPrice
       })
       .addCase(getCart.rejected, (state, action) => {
         state.isLoading = false

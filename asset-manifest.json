@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/node-asm3-client/static/css/main.502fbfa9.css",
+    "main.js": "/node-asm3-client/static/js/main.ba77b6c5.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/node-asm3-client/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/banner1.jpg": "/node-asm3-client/static/media/banner1.4a22881c941f7b645fa8.jpg",
+    "index.html": "/node-asm3-client/index.html",
+    "main.502fbfa9.css.map": "/node-asm3-client/static/css/main.502fbfa9.css.map",
+    "main.ba77b6c5.js.map": "/node-asm3-client/static/js/main.ba77b6c5.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/node-asm3-client/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.502fbfa9.css",
+    "static/js/main.ba77b6c5.js"
+  ]
+}
